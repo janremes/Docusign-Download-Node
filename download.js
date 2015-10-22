@@ -94,7 +94,7 @@ async.waterfall([
 
         } else {
 
-          var filename = 'doc' + envelope + '.pdf'
+          var filename = 'files/doc' + envelope + '.pdf'
           fs.writeFile(filename, response, 'binary', function (err) {
 
             if (err) {
