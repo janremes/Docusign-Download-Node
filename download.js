@@ -5,7 +5,7 @@ var fs = require('fs');
 
 var docusign = require('docusign-node');
 
-var integratorKey = 'TEST-baab13e3-6a88-44b2-aad3-3eb9e82f759b',                   // Integrator Key associated with your DocuSign Integration
+var integratorKey = '',                   // Integrator Key associated with your DocuSign Integration
   email = 'EMAIL', //'', //           // Email for your DocuSign Account
   password = 'PASSWORD',  //'', //       // Password for your DocuSign Account
   docusignEnv = 'demo',                  // DocuSign Environment generally demo for testing purposes
